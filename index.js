@@ -24,18 +24,6 @@ const questions = () => {
             message: 'Describe your project: ',
         },
         {
-            type: 'confirm',
-            name: 'confirmTableOfContents',
-            message: 'Would you like to add a Table of Contents?',
-            default: true
-        },
-        {
-            type: 'input',
-            name: 'tableOfContents',
-            message: 'Provide a Table of Contents: ',
-            when: ({ confirmTableOfContents }) => confirmTableOfContents
-        },
-        {
             type: 'input',
             name: 'installation',
             message: 'Provide installation instructions: ',
@@ -123,7 +111,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    
+
 }
 
 // Function call to initialize app
