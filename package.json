@@ -1,0 +1,19 @@
+{
+  "name": "pro-readme-inator",
+  "version": "1.0.0",
+  "description": "Dynamically create a Professional README.md through the command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulesMcP/Pro-README-inator.git"
+  },
+  "author": "Julieta McPherson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulesMcP/Pro-README-inator/issues"
+  },
+  "homepage": "https://github.com/JulesMcP/Pro-README-inator#readme"
+}
