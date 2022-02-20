@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JulesMcP/Pro-README-inator/issues"
   },
-  "homepage": "https://github.com/JulesMcP/Pro-README-inator#readme"
+  "homepage": "https://github.com/JulesMcP/Pro-README-inator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
