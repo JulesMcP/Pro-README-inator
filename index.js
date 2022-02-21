@@ -124,5 +124,5 @@ init()
     return generateMarkdown(questionsData);
 })
 .then(readmeAdded => {
-    return writeToFile('./README.md', readmeAdded);
+    return writeToFile('./dist/README.md', readmeAdded);
 });
