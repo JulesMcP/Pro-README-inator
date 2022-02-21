@@ -5,6 +5,7 @@
 
   ## Description
   This app will create a professional README.md through command line prompts.
+  ![image](https://user-images.githubusercontent.com/95149604/154870741-9fd09754-9a62-44a9-bf54-7caa31349054.png)
 
   ## Table of Contents
   - [Installation](#installation)
