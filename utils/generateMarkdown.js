@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
   if (!license) {
     return '';
   } else {
-    return `[You can find more information about this license at ${license}(https://opensource.org/licenses/${license}) .]` 
+    return `You can find more information about this license at [${license}](https://opensource.org/licenses/${license}).` 
   }
 }
 
@@ -25,18 +25,20 @@ function renderLicenseSection(license) {
     return '';
   } else {
     return [
-      `## License \nProject developed under the ${license} license.`,
+      `## License \n Project developed under the ${license} license.`,
       `- [License](#License)` ,
     ]
   }
 }
 
 // TODO: Create a function to generate markdown for README
+// Include screenshots under Description
+// Include walkthrough video under questions
 function generateMarkdown(data) {
   return `
   # ${data.title}
   
-  ${renderLicenseBadge(license)}
+  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
@@ -65,8 +67,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  For feedback about the project you can reach me at [${data.github}]
-  (https://github.com/${data.github}),
+  Checkout the [walkthrough video]() for a step-by-step introduction to the project.
+  For feedback about the project you can reach me at [${data.github}](${data.link}),
   or via email at [${data.email}](mailto:${data.email}).
 `;
 }
