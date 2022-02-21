@@ -32,11 +32,8 @@
   Test as you wish.
 
   ## Questions
-  Checkout the [walkthrough video]() for a step-by-step introduction to the project.
+  Checkout the [walkthrough video](https://drive.google.com/file/d/1KMP48MXDheZzxe59gNddTHXoaOcHLILz/view) for a step-by-step introduction to the project.
   For feedback about the project you can reach me at [JulesMcP](https://github.com/JulesMcP/Pro-README-inator),
   or via email at [rogue427@yahoo.com](mailto:rogue427@yahoo.com).
 
-  ## Questions
-  Checkout the [walkthrough video](https://drive.google.com/file/d/1KMP48MXDheZzxe59gNddTHXoaOcHLILz/view) for a step-by-step introduction to the project.
-  For feedback about the project you can reach me at [Jdog](https://github.com),
-  or via email at [email@email.com](mailto:email@email.com).
+  
